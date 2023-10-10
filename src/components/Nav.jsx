@@ -1,6 +1,6 @@
 //import icons
 import {BiHomeAlt, BiUser} from 'react-icons/bi';
-import {TfiGallery} from 'react-icons/tfi';
+// import {TfiGallery} from 'react-icons/tfi';
 import {BsClipboardData, BsBriefcase, BsChatSquare} from 'react-icons/bs';
 //Link
 import { Link } from 'react-scroll';
@@ -16,7 +16,7 @@ const Nav = () => {
           <Link to='services'activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsClipboardData/></Link>
           <Link to='work'  activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsBriefcase/></Link>
           <Link to='contact' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsChatSquare/></Link>
-          <Link to='gallery' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center text-white justify-center'><TfiGallery/></Link>
+          {/* <Link to='gallery' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center text-white justify-center'><TfiGallery/></Link> */}
         </div>
         </div>
      </nav>
