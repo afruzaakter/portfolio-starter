@@ -1,5 +1,6 @@
 //import icons
 import {BiHomeAlt, BiUser} from 'react-icons/bi';
+import {TfiGallery} from 'react-icons/tfi';
 import {BsClipboardData, BsBriefcase, BsChatSquare} from 'react-icons/bs';
 //Link
 import { Link } from 'react-scroll';
@@ -11,10 +12,11 @@ const Nav = () => {
         <div className='container mx-auto'>
         <div className='w-full  bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50'>
           <Link to='home'   offset={-200} activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BiHomeAlt/></Link>
-          <Link to='about'   activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BiUser/></Link>
+          <Link to='about'  activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BiUser/></Link>
           <Link to='services'activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsClipboardData/></Link>
-          <Link to='work'    activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsBriefcase/></Link>
+          <Link to='work'  activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsBriefcase/></Link>
           <Link to='contact' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center justify-center'><BsChatSquare/></Link>
+          <Link to='gallery' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[60px ] h-[60px] flex items-center text-white justify-center'><TfiGallery/></Link>
         </div>
         </div>
      </nav>
