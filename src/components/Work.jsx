@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants';
 //image
-// import Img1 from '../assets/Portfolio-img1.png';
+import Img1 from '../assets/Portfolio-img1.png';
 import Img2 from '../assets/Portfolio-img2.png';
 import Img3 from '../assets/Portfolio-img3.png';
 const Work = () => {
@@ -29,7 +29,7 @@ const Work = () => {
                             {/* overlay  */}
                             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer'></div>
                             {/* img  */}
-                            {/* <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" /> */}
+                            <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
                             {/* pretitle  */}
                             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                              <span>UI/UX Design</span></div>
