@@ -52,7 +52,7 @@ const Gallery = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='text-[55px] lg:text-[110px] text-center  font-bold leading-[0.8] '>PHOTOS <span> GALLERY</span> </motion.h1>
-                <div className="flex items-center flex-col justify-center  lg:ml-[480px] ">
+                <div className="flex items-center flex-col justify-center ">
       {images.map((image, index) => (
         <motion.img
           key={index}
