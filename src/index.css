@@ -115,33 +115,9 @@ footer .wave#wave4{
   }
 }
 
-/* ========== Footer Animation Design End ============== */
 
 /* ========== slider  Design start ============== */
-/* .swiper_container{
-  height: 52rem;
-  padding: 2rem 0;
-  position: relative;
-}
-.swiper-slider{
-  width: 37rem;
-  height: 42rem;
-  position: relative;
-}
-.swiper-slide-shadow-left,.swiper-slide-shadow-right{
-  display: none;
-}
-.slider-controler {
-  position: relative;
-  bottom: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.slider-controler .swiper-button-next{
-  left: 58% !important;
-  transform: translateX(-58%) !important
-} */
+
 
 
 

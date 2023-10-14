@@ -45,13 +45,13 @@ const Gallery = () => {
     };
     return (
         <section className="section" id="gallery">
-            <div className="container max-auto">
+            <div className="container mx-auto">
                 <motion.h1
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] lg:text-[110px] text-center  font-bold leading-[0.8] '>PHOTOS <span> GALLERY</span> </motion.h1>
+              className='text-[40px] lg:text-[60px] text-center  font-bold leading-[0.8] '>PHOTOS <span> GALLERY</span> </motion.h1>
                 <div className="flex items-center flex-col justify-center ">
       {images.map((image, index) => (
         <motion.img

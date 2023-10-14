@@ -21,7 +21,7 @@ const Footer = () => {
                     <li> <a className=' social-icon'  href="#"></a> <FaTwitter/> </li>
                   </ul>
                   {/* menu footer  */}
-                  <ul className="lg:flex justify-center flex 
+                  <ul className="lg:flex justify-center flex flex-wrap
                   cursor-pointer lg:items-center relative lg:mr-10px gap-x-4 lg:gap-x-7 text-[28px]  ">
                     <li> <a className=' social-icon' href="#"></a> Home </li>
                     <li> <a className=' social-icon'  href="#"></a>About </li>
